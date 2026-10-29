@@ -3,8 +3,8 @@
   "Trivy": {
     "Version": "dev"
   },
-  "ReportID": "01a18710-7d23-7093-9304-0e737a41ac05",
-  "CreatedAt": "2026-10-29T05:49:27.203041212-04:00",
+  "ReportID": "01a1871b-8aa1-77ba-b6dd-0765e79e500c",
+  "CreatedAt": "2026-10-29T06:01:31.553508998-04:00",
   "ArtifactID": "sha256:14c404f7f6b082d8fc95d79ccb0ef2d4b3be4c569c0a8493fc0b4c60f831f3ee",
   "ArtifactName": "trivy-nodejs-project:latest",
   "ArtifactType": "container_image",
