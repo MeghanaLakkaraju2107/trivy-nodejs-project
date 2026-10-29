@@ -3,9 +3,9 @@
   "Trivy": {
     "Version": "dev"
   },
-  "ReportID": "01a18708-03d2-7809-a18d-11117f0e9568",
-  "CreatedAt": "2026-10-29T05:40:11.858532117-04:00",
-  "ArtifactID": "sha256:6b7a4c872b963e6f0398868140437b7404e6c191d2c70ed4dcf29abd06fbec23",
+  "ReportID": "01a18710-7d23-7093-9304-0e737a41ac05",
+  "CreatedAt": "2026-10-29T05:49:27.203041212-04:00",
+  "ArtifactID": "sha256:14c404f7f6b082d8fc95d79ccb0ef2d4b3be4c569c0a8493fc0b4c60f831f3ee",
   "ArtifactName": "trivy-nodejs-project:latest",
   "ArtifactType": "container_image",
   "Metadata": {
@@ -14,7 +14,7 @@
       "Family": "debian",
       "Name": "13.7"
     },
-    "ImageID": "sha256:32573b7706c1c9e8a8fac61c8b6689ff51547546d79135a159ae2963b015c239",
+    "ImageID": "sha256:e91fe61b7b42b3f1669ca8a1c4599d116475bd24e08084cc58fb0d80023ab756",
     "DiffIDs": [
       "sha256:a5d6d345f6afa08d7c31272055746d60a838b290bfcc82c0a23e8e984d61a933",
       "sha256:afe0037151a957752fee8884c68a5c91efabc427e4d87e662ceaabb6857bb85b",
@@ -22,9 +22,9 @@
       "sha256:a3dd86e5bcde224fa91009dba004d6c23f9fe3c28b6ae6cdad34f3b2b14cd15d",
       "sha256:97d0debbdba72deefcb841e17670bd0b8eb7a87a61bf9d13503a61595076959b",
       "sha256:689b75c2d38d88b483ecfa9a7f7faef1bb6d02d4089dfb17c71839e4c47f35a2",
-      "sha256:e36385e5a6f52c671bffd5c3edaa1ea3d4b0f1aaa441ff58ab91b859e257658e",
-      "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6",
-      "sha256:0ca9ba9fbd1879ddbcade94f6e30335b7f5359d59ae12a5994e693e8c2c4639a"
+      "sha256:4813d21c00d72e19f282eaf68aa8e3e43b9050d7e734df707339a387dabd8563",
+      "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025",
+      "sha256:93822d88d835306e516b00a19dc4fe41c73a5c8c23550fe961416aad4daeadaf"
     ],
     "RepoTags": [
       "trivy-nodejs-project:latest"
@@ -32,7 +32,7 @@
     "Reference": "trivy-nodejs-project:latest",
     "ImageConfig": {
       "architecture": "amd64",
-      "created": "2026-10-29T05:30:12.012022994-04:00",
+      "created": "2026-10-29T05:49:03.097213018-04:00",
       "history": [
         {
           "created": "2026-10-27T00:00:00Z",
@@ -89,40 +89,40 @@
           "comment": "buildkit.dockerfile.v0"
         },
         {
-          "created": "2026-10-29T09:30:10Z",
+          "created": "2026-10-29T09:49:01Z",
           "created_by": "COPY package*.json ./ # buildkit",
           "comment": "buildkit.dockerfile.v0"
         },
         {
-          "created": "2026-10-29T09:30:11Z",
+          "created": "2026-10-29T09:49:03Z",
           "created_by": "RUN /bin/sh -c npm install --omit=dev # buildkit",
           "comment": "buildkit.dockerfile.v0"
         },
         {
-          "created": "2026-10-29T09:30:12Z",
+          "created": "2026-10-29T09:49:03Z",
           "created_by": "COPY app.js ./ # buildkit",
           "comment": "buildkit.dockerfile.v0"
         },
         {
-          "created": "2026-10-29T09:30:12Z",
+          "created": "2026-10-29T09:49:03Z",
           "created_by": "ENV NODE_ENV=production",
           "comment": "buildkit.dockerfile.v0",
           "empty_layer": true
         },
         {
-          "created": "2026-10-29T09:30:12Z",
+          "created": "2026-10-29T09:49:03Z",
           "created_by": "USER node",
           "comment": "buildkit.dockerfile.v0",
           "empty_layer": true
         },
         {
-          "created": "2026-10-29T09:30:12Z",
+          "created": "2026-10-29T09:49:03Z",
           "created_by": "EXPOSE [3000/tcp]",
           "comment": "buildkit.dockerfile.v0",
           "empty_layer": true
         },
         {
-          "created": "2026-10-29T09:30:12Z",
+          "created": "2026-10-29T09:49:03Z",
           "created_by": "CMD [\"npm\" \"start\"]",
           "comment": "buildkit.dockerfile.v0",
           "empty_layer": true
@@ -138,9 +138,9 @@
           "sha256:a3dd86e5bcde224fa91009dba004d6c23f9fe3c28b6ae6cdad34f3b2b14cd15d",
           "sha256:97d0debbdba72deefcb841e17670bd0b8eb7a87a61bf9d13503a61595076959b",
           "sha256:689b75c2d38d88b483ecfa9a7f7faef1bb6d02d4089dfb17c71839e4c47f35a2",
-          "sha256:e36385e5a6f52c671bffd5c3edaa1ea3d4b0f1aaa441ff58ab91b859e257658e",
-          "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6",
-          "sha256:0ca9ba9fbd1879ddbcade94f6e30335b7f5359d59ae12a5994e693e8c2c4639a"
+          "sha256:4813d21c00d72e19f282eaf68aa8e3e43b9050d7e734df707339a387dabd8563",
+          "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025",
+          "sha256:93822d88d835306e516b00a19dc4fe41c73a5c8c23550fe961416aad4daeadaf"
         ]
       },
       "config": {
@@ -192,15 +192,15 @@
       },
       {
         "Size": 32768,
-        "DiffID": "sha256:e36385e5a6f52c671bffd5c3edaa1ea3d4b0f1aaa441ff58ab91b859e257658e"
+        "DiffID": "sha256:4813d21c00d72e19f282eaf68aa8e3e43b9050d7e734df707339a387dabd8563"
       },
       {
         "Size": 5882880,
-        "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+        "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
       },
       {
         "Size": 2560,
-        "DiffID": "sha256:0ca9ba9fbd1879ddbcade94f6e30335b7f5359d59ae12a5994e693e8c2c4639a"
+        "DiffID": "sha256:93822d88d835306e516b00a19dc4fe41c73a5c8c23550fe961416aad4daeadaf"
       }
     ]
   },
@@ -7067,7 +7067,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:7ecbab27923ce8298ccad531a2899c4bdad3150b3c0c5add74f0a8b54449b5f5",
+          "Fingerprint": "sha256:302a01c678bfddd35eaa40fc82e350e2a620f509910b4eb40432f6843f3ddbfe",
           "Title": "util-linux: util-linux: failed external mount helper still runs privileged X-mount post-hooks",
           "Description": "util-linux versions through 2.41.5 and 2.42.2 fail to check mount helper exit status before running post-mount hooks, allowing unprivileged users to execute privileged operations on pre-existing filesystems. Attackers can exploit X-mount.idmap or X-mount.owner hooks to clone filesystems with inherited suid bits or modify target inode permissions after a helper fails, achieving privilege escalation.",
           "Severity": "HIGH",
@@ -7120,7 +7120,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:8ea31020bb5940a58549f83585185bf28dfc9448cb1d9393bab66e2903b9ad3f",
+          "Fingerprint": "sha256:3ddf40f6157dc324b828598386c6d835c787f2604d38f170f095a8421d4880a6",
           "Title": "util-linux: util-linux: nsenter --join-cgroup leaks root cgroup migration authority",
           "Description": "The nsenter --join-cgroup option opens the target cgroup.procs file as root and leaves that file descriptor open across later namespace and credential changes and across execve(). Because the kernel checks later cgroup migrations using the credentials from the original open, a program run in an attacker-controlled target can inherit root's ability to move host processes between cgroups. After a privileged operator uses --join-cgroup against that target, an unprivileged user can migrate and terminate unrelated root processes.",
           "Severity": "HIGH",
@@ -7168,7 +7168,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:9a0b9c7f85dfe0ad5678fc14446d098464cd9676f0950b6c50d1c9f1c7ef40c1",
+          "Fingerprint": "sha256:da52be674bc406018755061f5ac5357b31df695be3df0e2db89b65e7e2cfb305",
           "Title": "util-linux: util-linux: X-mount.subdir detached-tree resolution can escape via intermediate symlinks",
           "Description": "The X-mount.subdir option uses a detached-tree fast path on Linux 6.15 and later and passes the configured subdirectory to open_tree() with AT_SYMLINK_NOFOLLOW. That flag does not stop intermediate symlink traversal or keep resolution inside the newly mounted filesystem. A local unprivileged user with an fstab-authorized X-mount.subdir entry can attach a host path at the intended mountpoint.",
           "Severity": "HIGH",
@@ -7214,7 +7214,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:445ea679822f4e646f96105c6d94fa2ef089400a15922ae0b1e4c918f24ee07f",
+          "Fingerprint": "sha256:c3d326141c3b0ea3ea1e87330149b598054d7aebbee9defdb0daf0b0673bdc9b",
           "Title": "util-linux: util-linux: restricted bind mounts do not pin the source, allowing X-mount.owner/group/mode redirection",
           "Description": "A flaw was found in util-linux. Restricted bind mounts take the source path from fstab but do not pin that source before the privileged mount. A local unprivileged user who can replace the authorized source or a writable ancestor can redirect SUID mount(8) to bind another host directory. If the fstab entry also sets X-mount.owner, X-mount.group, or X-mount.mode, root then changes ownership or mode on that redirected inode.",
           "Severity": "HIGH",
@@ -7261,7 +7261,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:06b3e188eab3fc5082d1294d02f74aca5c1cb50f83b0f2040e9c446b3148c305",
+          "Fingerprint": "sha256:935dae6a637f8546d2f889060927089acf6ac4adea7d03c8314529971b68de0c",
           "Title": "acl: Symlink traversal privilege escalation via libacl functions",
           "Description": "acl before version 2.4.0 contains a symlink traversal vulnerability in the libacl pathname-based functions acl_get_file(), acl_set_file(), acl_extended_file(), and acl_delete_def_file() that allows local attackers to escalate privileges by replacing any pathname component with a symbolic link. Attackers who control any component of a pathname processed by a privileged caller can redirect ACL read or write operations to arbitrary files or directories, enabling unauthorized manipulation of access control lists and local privilege escalation.",
           "Severity": "HIGH",
@@ -7339,7 +7339,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:1eabb1cd4b6ec179f2aa321dfac78ef0d698a077026efc526f948d2132cf3705",
+          "Fingerprint": "sha256:1524d8340fa071175eba2a54d66b3f47e325e72f1169b61c2290e5329cebda19",
           "Title": "util-linux: util-linux: failed external mount helper still runs privileged X-mount post-hooks",
           "Description": "util-linux versions through 2.41.5 and 2.42.2 fail to check mount helper exit status before running post-mount hooks, allowing unprivileged users to execute privileged operations on pre-existing filesystems. Attackers can exploit X-mount.idmap or X-mount.owner hooks to clone filesystems with inherited suid bits or modify target inode permissions after a helper fails, achieving privilege escalation.",
           "Severity": "HIGH",
@@ -7392,7 +7392,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:ac5531f6c199a85ba12316f94452f141bcb9b2311b4c88426c2724f0df264ddc",
+          "Fingerprint": "sha256:0ea5f273da5802ff3e91a1abd595632be880bf4b05af40586a9d9d55fd7c0bda",
           "Title": "util-linux: util-linux: nsenter --join-cgroup leaks root cgroup migration authority",
           "Description": "The nsenter --join-cgroup option opens the target cgroup.procs file as root and leaves that file descriptor open across later namespace and credential changes and across execve(). Because the kernel checks later cgroup migrations using the credentials from the original open, a program run in an attacker-controlled target can inherit root's ability to move host processes between cgroups. After a privileged operator uses --join-cgroup against that target, an unprivileged user can migrate and terminate unrelated root processes.",
           "Severity": "HIGH",
@@ -7440,7 +7440,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:b0c3e28431a7a32b902ae66f2907196fa997ead51a885fd339effc857eda1b85",
+          "Fingerprint": "sha256:1705caf77a5659ddf5307c02b688e11dee7d7b88486267f51fb1b49c59013ae2",
           "Title": "util-linux: util-linux: X-mount.subdir detached-tree resolution can escape via intermediate symlinks",
           "Description": "The X-mount.subdir option uses a detached-tree fast path on Linux 6.15 and later and passes the configured subdirectory to open_tree() with AT_SYMLINK_NOFOLLOW. That flag does not stop intermediate symlink traversal or keep resolution inside the newly mounted filesystem. A local unprivileged user with an fstab-authorized X-mount.subdir entry can attach a host path at the intended mountpoint.",
           "Severity": "HIGH",
@@ -7486,7 +7486,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:c8e8cc7ed51f1a66f78f7d8f0f7134d44892462c7be815b781c8f400661795b9",
+          "Fingerprint": "sha256:1a099beb9cc3ebf555d30246392b4725ad8a9ab9e2c58dea1f47b666500cb58b",
           "Title": "util-linux: util-linux: restricted bind mounts do not pin the source, allowing X-mount.owner/group/mode redirection",
           "Description": "A flaw was found in util-linux. Restricted bind mounts take the source path from fstab but do not pin that source before the privileged mount. A local unprivileged user who can replace the authorized source or a writable ancestor can redirect SUID mount(8) to bind another host directory. If the fstab entry also sets X-mount.owner, X-mount.group, or X-mount.mode, root then changes ownership or mode on that redirected inode.",
           "Severity": "HIGH",
@@ -7533,7 +7533,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:20a835bae7d03ffef52bcb200b4f21380042629eaa3db0b4c262ccf658a144b8",
+          "Fingerprint": "sha256:108f59dd48d7895fdebad71ec6e4f1a78f2bcd334c7009ecc8c8cb4d9a6882c3",
           "Title": "util-linux: util-linux: failed external mount helper still runs privileged X-mount post-hooks",
           "Description": "util-linux versions through 2.41.5 and 2.42.2 fail to check mount helper exit status before running post-mount hooks, allowing unprivileged users to execute privileged operations on pre-existing filesystems. Attackers can exploit X-mount.idmap or X-mount.owner hooks to clone filesystems with inherited suid bits or modify target inode permissions after a helper fails, achieving privilege escalation.",
           "Severity": "HIGH",
@@ -7586,7 +7586,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:f647f2b3503b0819c9a2648125d0c31e373358c0878308b748ae06f977a49848",
+          "Fingerprint": "sha256:5f223f68747312b11df1afa2be042ecd12dac2f910e47a96922f8b383b43ab43",
           "Title": "util-linux: util-linux: nsenter --join-cgroup leaks root cgroup migration authority",
           "Description": "The nsenter --join-cgroup option opens the target cgroup.procs file as root and leaves that file descriptor open across later namespace and credential changes and across execve(). Because the kernel checks later cgroup migrations using the credentials from the original open, a program run in an attacker-controlled target can inherit root's ability to move host processes between cgroups. After a privileged operator uses --join-cgroup against that target, an unprivileged user can migrate and terminate unrelated root processes.",
           "Severity": "HIGH",
@@ -7634,7 +7634,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:26c80297b3d4a8553c7a66597b8f84a6a7ed3e953955328fd2daceb29d58d867",
+          "Fingerprint": "sha256:4c08916f3c747ffeb4e152a45fb15ff121fb1f878b17a285d208c5300681fbb4",
           "Title": "util-linux: util-linux: X-mount.subdir detached-tree resolution can escape via intermediate symlinks",
           "Description": "The X-mount.subdir option uses a detached-tree fast path on Linux 6.15 and later and passes the configured subdirectory to open_tree() with AT_SYMLINK_NOFOLLOW. That flag does not stop intermediate symlink traversal or keep resolution inside the newly mounted filesystem. A local unprivileged user with an fstab-authorized X-mount.subdir entry can attach a host path at the intended mountpoint.",
           "Severity": "HIGH",
@@ -7680,7 +7680,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:b041f70016d3904f531ac2c8aba3a2760ee483c6ad092c13739785864503740a",
+          "Fingerprint": "sha256:f3135fccb9416c938895a862f57fdcae445abeebd6e7ef443bf6f895ada36bae",
           "Title": "util-linux: util-linux: restricted bind mounts do not pin the source, allowing X-mount.owner/group/mode redirection",
           "Description": "A flaw was found in util-linux. Restricted bind mounts take the source path from fstab but do not pin that source before the privileged mount. A local unprivileged user who can replace the authorized source or a writable ancestor can redirect SUID mount(8) to bind another host directory. If the fstab entry also sets X-mount.owner, X-mount.group, or X-mount.mode, root then changes ownership or mode on that redirected inode.",
           "Severity": "HIGH",
@@ -7727,7 +7727,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:ff3c5d753b57357177bbac78d5f4c0b054c131d40d81bb5e44e4bab563a60041",
+          "Fingerprint": "sha256:88a4fce06eb1a85023d19b8896ab8228624d4cdfb84c25b6f3886321764c0bdd",
           "Title": "util-linux: util-linux: failed external mount helper still runs privileged X-mount post-hooks",
           "Description": "util-linux versions through 2.41.5 and 2.42.2 fail to check mount helper exit status before running post-mount hooks, allowing unprivileged users to execute privileged operations on pre-existing filesystems. Attackers can exploit X-mount.idmap or X-mount.owner hooks to clone filesystems with inherited suid bits or modify target inode permissions after a helper fails, achieving privilege escalation.",
           "Severity": "HIGH",
@@ -7780,7 +7780,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:3dda06e96e9a6b469d0cb2ce5b18f7fbfe72097bc0d8da5b936de13ea7f27eb0",
+          "Fingerprint": "sha256:5e2b152a075e9ac1e9f55f625868169f26ede5c03a65ee62af373d94bcd11b3a",
           "Title": "util-linux: util-linux: nsenter --join-cgroup leaks root cgroup migration authority",
           "Description": "The nsenter --join-cgroup option opens the target cgroup.procs file as root and leaves that file descriptor open across later namespace and credential changes and across execve(). Because the kernel checks later cgroup migrations using the credentials from the original open, a program run in an attacker-controlled target can inherit root's ability to move host processes between cgroups. After a privileged operator uses --join-cgroup against that target, an unprivileged user can migrate and terminate unrelated root processes.",
           "Severity": "HIGH",
@@ -7828,7 +7828,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:c5a0fa38000ed790dc587ac25e494052fd09761ac7fda9e56b6483f3e47d7514",
+          "Fingerprint": "sha256:56ef671ff527092de4beac9356754320f8d89f91fcbae93fca93a5b6cef35642",
           "Title": "util-linux: util-linux: X-mount.subdir detached-tree resolution can escape via intermediate symlinks",
           "Description": "The X-mount.subdir option uses a detached-tree fast path on Linux 6.15 and later and passes the configured subdirectory to open_tree() with AT_SYMLINK_NOFOLLOW. That flag does not stop intermediate symlink traversal or keep resolution inside the newly mounted filesystem. A local unprivileged user with an fstab-authorized X-mount.subdir entry can attach a host path at the intended mountpoint.",
           "Severity": "HIGH",
@@ -7874,7 +7874,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:b41a927b392db4a08b82a87d36a373cf672bf090318513094855627f21321025",
+          "Fingerprint": "sha256:138fd4a857b10044fc1956d38159f529faf9725bd76953e979e7adde0e1d4010",
           "Title": "util-linux: util-linux: restricted bind mounts do not pin the source, allowing X-mount.owner/group/mode redirection",
           "Description": "A flaw was found in util-linux. Restricted bind mounts take the source path from fstab but do not pin that source before the privileged mount. A local unprivileged user who can replace the authorized source or a writable ancestor can redirect SUID mount(8) to bind another host directory. If the fstab entry also sets X-mount.owner, X-mount.group, or X-mount.mode, root then changes ownership or mode on that redirected inode.",
           "Severity": "HIGH",
@@ -7921,7 +7921,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:a09b03788ee2cd8e7e7991c05063a1220fb6a8449bc4672d8c5df395b9931294",
+          "Fingerprint": "sha256:88e143855f2925d3c3680d1b2713d7a695e5215cbf0e264c9add8b7a6638bd34",
           "Title": "util-linux: util-linux: failed external mount helper still runs privileged X-mount post-hooks",
           "Description": "util-linux versions through 2.41.5 and 2.42.2 fail to check mount helper exit status before running post-mount hooks, allowing unprivileged users to execute privileged operations on pre-existing filesystems. Attackers can exploit X-mount.idmap or X-mount.owner hooks to clone filesystems with inherited suid bits or modify target inode permissions after a helper fails, achieving privilege escalation.",
           "Severity": "HIGH",
@@ -7974,7 +7974,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:681eb68db0d89279b5787fba4b13348957615c3d8aae824e0ade6702eba37414",
+          "Fingerprint": "sha256:08a66bed13820bf418fd1613c231fa6885bdd6efe044c324ffa54ab7b1d938fc",
           "Title": "util-linux: util-linux: nsenter --join-cgroup leaks root cgroup migration authority",
           "Description": "The nsenter --join-cgroup option opens the target cgroup.procs file as root and leaves that file descriptor open across later namespace and credential changes and across execve(). Because the kernel checks later cgroup migrations using the credentials from the original open, a program run in an attacker-controlled target can inherit root's ability to move host processes between cgroups. After a privileged operator uses --join-cgroup against that target, an unprivileged user can migrate and terminate unrelated root processes.",
           "Severity": "HIGH",
@@ -8022,7 +8022,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:8d333d79cf31a2f9e761dcf34ac9663e807f3fdb83cae038b217cba7fcd3768a",
+          "Fingerprint": "sha256:7238004f9cabb2fd0fd9c1b2ae3cf90168a65e67306a6ca9a107134ab1ca4acd",
           "Title": "util-linux: util-linux: X-mount.subdir detached-tree resolution can escape via intermediate symlinks",
           "Description": "The X-mount.subdir option uses a detached-tree fast path on Linux 6.15 and later and passes the configured subdirectory to open_tree() with AT_SYMLINK_NOFOLLOW. That flag does not stop intermediate symlink traversal or keep resolution inside the newly mounted filesystem. A local unprivileged user with an fstab-authorized X-mount.subdir entry can attach a host path at the intended mountpoint.",
           "Severity": "HIGH",
@@ -8068,7 +8068,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:98393d514492776ed7f9bfe5ffc92d11a0439296c663fbbdb2db299696548245",
+          "Fingerprint": "sha256:1e7e305d3ff3346d98ddc76c07386083fc45e44dc66f03a9064ae4362c51324a",
           "Title": "util-linux: util-linux: restricted bind mounts do not pin the source, allowing X-mount.owner/group/mode redirection",
           "Description": "A flaw was found in util-linux. Restricted bind mounts take the source path from fstab but do not pin that source before the privileged mount. A local unprivileged user who can replace the authorized source or a writable ancestor can redirect SUID mount(8) to bind another host directory. If the fstab entry also sets X-mount.owner, X-mount.group, or X-mount.mode, root then changes ownership or mode on that redirected inode.",
           "Severity": "HIGH",
@@ -8115,7 +8115,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:5de91fa75e99b2e958dcfff5388538afe368073ccfcbf5dabf6b27020c9d55fa",
+          "Fingerprint": "sha256:51e8358893ba25f406d882dbc4e423fa62bea8a698ae53744dc71395d8acc426",
           "Title": "systemd: systemd-homed: Local privilege escalation via missing home-record signature verification",
           "Description": "systemd-homed contains a local privilege escalation bug via arbitrary system group addition to a local, logged in, homed-managed user",
           "Severity": "HIGH",
@@ -8165,7 +8165,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:ec1f9a8925cfae9f9825b2461dcd8eaa8abadf964b8d2f50ff19b3c4f98699af",
+          "Fingerprint": "sha256:ca34de5956c1db963df4ed1c2f2ed3c6d321ceff25dd7f97220c4c3091e2183f",
           "Title": "ncurses: ncurses: Buffer overflow vulnerability may lead to arbitrary code execution.",
           "Description": "The infocmp command-line tool in ncurses before 6.5-20251213 has a stack-based buffer overflow in analyze_string in progs/infocmp.c.",
           "Severity": "HIGH",
@@ -8246,7 +8246,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:0054e7a02de2c509c0251fdbb553e679c8bcefd4a4766571f49bfd0b5e88d548",
+          "Fingerprint": "sha256:e98ce095529fc88bf179d2faa37e8ca52afb0b5a149e5ddd32660e58fdea57e2",
           "Title": "systemd: systemd-homed: Local privilege escalation via missing home-record signature verification",
           "Description": "systemd-homed contains a local privilege escalation bug via arbitrary system group addition to a local, logged in, homed-managed user",
           "Severity": "HIGH",
@@ -8295,7 +8295,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:61adf650f601006007e6b16bfd533fb75290e059a22c5b9388db7da2ac7c66b6",
+          "Fingerprint": "sha256:08a8ce06554f33900582310b6f422861f7195c1cf55875576e3bfdb0dbb001e6",
           "Title": "util-linux: util-linux: failed external mount helper still runs privileged X-mount post-hooks",
           "Description": "util-linux versions through 2.41.5 and 2.42.2 fail to check mount helper exit status before running post-mount hooks, allowing unprivileged users to execute privileged operations on pre-existing filesystems. Attackers can exploit X-mount.idmap or X-mount.owner hooks to clone filesystems with inherited suid bits or modify target inode permissions after a helper fails, achieving privilege escalation.",
           "Severity": "HIGH",
@@ -8348,7 +8348,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:2b3c1092b0354e04029625d80889da91f54900156329391441325b155dd47ac6",
+          "Fingerprint": "sha256:2e03bf2813c1262e8aee647d0b245bd6f8bfe26171a70c286be63038aa244064",
           "Title": "util-linux: util-linux: nsenter --join-cgroup leaks root cgroup migration authority",
           "Description": "The nsenter --join-cgroup option opens the target cgroup.procs file as root and leaves that file descriptor open across later namespace and credential changes and across execve(). Because the kernel checks later cgroup migrations using the credentials from the original open, a program run in an attacker-controlled target can inherit root's ability to move host processes between cgroups. After a privileged operator uses --join-cgroup against that target, an unprivileged user can migrate and terminate unrelated root processes.",
           "Severity": "HIGH",
@@ -8396,7 +8396,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:e8e12a1604382044c07881c7b3d50363962a07cdf5dfd4d518ef0c654bbc1df1",
+          "Fingerprint": "sha256:b1c47203e3b839c498b5ce438942290f116ad6258d000f5b6ecd662dea30e520",
           "Title": "util-linux: util-linux: X-mount.subdir detached-tree resolution can escape via intermediate symlinks",
           "Description": "The X-mount.subdir option uses a detached-tree fast path on Linux 6.15 and later and passes the configured subdirectory to open_tree() with AT_SYMLINK_NOFOLLOW. That flag does not stop intermediate symlink traversal or keep resolution inside the newly mounted filesystem. A local unprivileged user with an fstab-authorized X-mount.subdir entry can attach a host path at the intended mountpoint.",
           "Severity": "HIGH",
@@ -8442,7 +8442,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:aeda8571ecd84b82067efd7365da52adcc63c850b651084416cae519f0fb29c0",
+          "Fingerprint": "sha256:d463ff66b92e5a387e031302bfdd75a2f2032b08f86213b7809b980d8da92b68",
           "Title": "util-linux: util-linux: restricted bind mounts do not pin the source, allowing X-mount.owner/group/mode redirection",
           "Description": "A flaw was found in util-linux. Restricted bind mounts take the source path from fstab but do not pin that source before the privileged mount. A local unprivileged user who can replace the authorized source or a writable ancestor can redirect SUID mount(8) to bind another host directory. If the fstab entry also sets X-mount.owner, X-mount.group, or X-mount.mode, root then changes ownership or mode on that redirected inode.",
           "Severity": "HIGH",
@@ -8489,7 +8489,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:7d26df67af2d2f7d0b72b80a1e3234722bdd54d14cde13a693857940b9878606",
+          "Fingerprint": "sha256:c31c50bcd96ad39b3e41baf5529dc7e00342847e22b138bfb29b776b764dfab4",
           "Title": "util-linux: util-linux: failed external mount helper still runs privileged X-mount post-hooks",
           "Description": "util-linux versions through 2.41.5 and 2.42.2 fail to check mount helper exit status before running post-mount hooks, allowing unprivileged users to execute privileged operations on pre-existing filesystems. Attackers can exploit X-mount.idmap or X-mount.owner hooks to clone filesystems with inherited suid bits or modify target inode permissions after a helper fails, achieving privilege escalation.",
           "Severity": "HIGH",
@@ -8542,7 +8542,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:e44409330e7277d9fc50b3b5b8f81a8b6292c86c0ffa7bd9d37c3f018044b54c",
+          "Fingerprint": "sha256:739ad222f6adc956d7c216460bf8e4229025ff02f848812f13e2a983ec372b91",
           "Title": "util-linux: util-linux: nsenter --join-cgroup leaks root cgroup migration authority",
           "Description": "The nsenter --join-cgroup option opens the target cgroup.procs file as root and leaves that file descriptor open across later namespace and credential changes and across execve(). Because the kernel checks later cgroup migrations using the credentials from the original open, a program run in an attacker-controlled target can inherit root's ability to move host processes between cgroups. After a privileged operator uses --join-cgroup against that target, an unprivileged user can migrate and terminate unrelated root processes.",
           "Severity": "HIGH",
@@ -8590,7 +8590,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:915a685a0a68984ba684e9aafec769258d5a07cdf7e59a3084474502fd679067",
+          "Fingerprint": "sha256:1849e469d0f79a3684ab134cf0c7e765af174b2f93a5110a252967be89a0c2ba",
           "Title": "util-linux: util-linux: X-mount.subdir detached-tree resolution can escape via intermediate symlinks",
           "Description": "The X-mount.subdir option uses a detached-tree fast path on Linux 6.15 and later and passes the configured subdirectory to open_tree() with AT_SYMLINK_NOFOLLOW. That flag does not stop intermediate symlink traversal or keep resolution inside the newly mounted filesystem. A local unprivileged user with an fstab-authorized X-mount.subdir entry can attach a host path at the intended mountpoint.",
           "Severity": "HIGH",
@@ -8636,7 +8636,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:e3ef6e371bead34acdf1d959c047d5afa0c5f8a5477b85a09e814d6051cd4284",
+          "Fingerprint": "sha256:0e871f33f4a301ed44b71e2c3fd3455c6b2987bf560552ae5c7f523c2175a81b",
           "Title": "util-linux: util-linux: restricted bind mounts do not pin the source, allowing X-mount.owner/group/mode redirection",
           "Description": "A flaw was found in util-linux. Restricted bind mounts take the source path from fstab but do not pin that source before the privileged mount. A local unprivileged user who can replace the authorized source or a writable ancestor can redirect SUID mount(8) to bind another host directory. If the fstab entry also sets X-mount.owner, X-mount.group, or X-mount.mode, root then changes ownership or mode on that redirected inode.",
           "Severity": "HIGH",
@@ -8683,7 +8683,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:9aec0917200646dc342ef0c72f118099c5435fefd544182f5449b8514b64cbbf",
+          "Fingerprint": "sha256:9915d44fbb973f5d02021ef986748384ddfc48c6b41ec85cbbc9f0c2ba7f0db8",
           "Title": "util-linux: util-linux: failed external mount helper still runs privileged X-mount post-hooks",
           "Description": "util-linux versions through 2.41.5 and 2.42.2 fail to check mount helper exit status before running post-mount hooks, allowing unprivileged users to execute privileged operations on pre-existing filesystems. Attackers can exploit X-mount.idmap or X-mount.owner hooks to clone filesystems with inherited suid bits or modify target inode permissions after a helper fails, achieving privilege escalation.",
           "Severity": "HIGH",
@@ -8736,7 +8736,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:86d78b34962efab34d2299efbeb23bb70c6bf55e5af0a7d6cf7a18595bddf93d",
+          "Fingerprint": "sha256:68436429e625bfe758f123007e2ed6779fe7a620ac7230090e1caca3135fcc86",
           "Title": "util-linux: util-linux: nsenter --join-cgroup leaks root cgroup migration authority",
           "Description": "The nsenter --join-cgroup option opens the target cgroup.procs file as root and leaves that file descriptor open across later namespace and credential changes and across execve(). Because the kernel checks later cgroup migrations using the credentials from the original open, a program run in an attacker-controlled target can inherit root's ability to move host processes between cgroups. After a privileged operator uses --join-cgroup against that target, an unprivileged user can migrate and terminate unrelated root processes.",
           "Severity": "HIGH",
@@ -8784,7 +8784,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:2b093576c2bd32c12311df31f151a85a41bddae20bcf5a63424a500797b29044",
+          "Fingerprint": "sha256:63a358390c667c46e92cc438e768419431dc93e80094c83f830dfc17dd7ca8d7",
           "Title": "util-linux: util-linux: X-mount.subdir detached-tree resolution can escape via intermediate symlinks",
           "Description": "The X-mount.subdir option uses a detached-tree fast path on Linux 6.15 and later and passes the configured subdirectory to open_tree() with AT_SYMLINK_NOFOLLOW. That flag does not stop intermediate symlink traversal or keep resolution inside the newly mounted filesystem. A local unprivileged user with an fstab-authorized X-mount.subdir entry can attach a host path at the intended mountpoint.",
           "Severity": "HIGH",
@@ -8830,7 +8830,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:141e35344ec50d96d89c34c0eb486321948bf3a43a7e7dbb7f3ae0ff54ccf90e",
+          "Fingerprint": "sha256:8b313c9bc393d83c86854680343a3a168b6732843397440fe89d84b03a3fc7c7",
           "Title": "util-linux: util-linux: restricted bind mounts do not pin the source, allowing X-mount.owner/group/mode redirection",
           "Description": "A flaw was found in util-linux. Restricted bind mounts take the source path from fstab but do not pin that source before the privileged mount. A local unprivileged user who can replace the authorized source or a writable ancestor can redirect SUID mount(8) to bind another host directory. If the fstab entry also sets X-mount.owner, X-mount.group, or X-mount.mode, root then changes ownership or mode on that redirected inode.",
           "Severity": "HIGH",
@@ -8878,7 +8878,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:67740d92bc222febae2f24323c7aa7c75c6873a7bf0173fde9790523770e1e96",
+          "Fingerprint": "sha256:342a14ddec26a64020e237511168d0d1c57cbffdee299c66a95f0116e3c50dcd",
           "Title": "ncurses: ncurses: Buffer overflow vulnerability may lead to arbitrary code execution.",
           "Description": "The infocmp command-line tool in ncurses before 6.5-20251213 has a stack-based buffer overflow in analyze_string in progs/infocmp.c.",
           "Severity": "HIGH",
@@ -8960,7 +8960,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:1f3100bbdf462e02f3130c3fad024e57478512beb84f0037c4f197647241401e",
+          "Fingerprint": "sha256:a7880df6579fd0454c0ef2028a0a3991cf14cc101052aabd5fc616906c2a7eea",
           "Title": "ncurses: ncurses: Buffer overflow vulnerability may lead to arbitrary code execution.",
           "Description": "The infocmp command-line tool in ncurses before 6.5-20251213 has a stack-based buffer overflow in analyze_string in progs/infocmp.c.",
           "Severity": "HIGH",
@@ -9042,7 +9042,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:9f51ede34fe613fac20add66ea185fbcb7191b06d5dacf28db6973502df5495d",
+          "Fingerprint": "sha256:82dc44f006c8edeb22d8b1e060194f644a06430cba8c611e6e65ebbbb351b19a",
           "Title": "perl-Archive-Tar: perl-Archive-Tar: Denial of Service via crafted tar header with large entry size",
           "Description": "Archive::Tar versions before 3.10 for Perl allow memory exhaustion via attacker controlled entry size field in tar header.\n\n_read_tar() reads each entry's payload with $handle-\u003eread($$data, $block), where $block is derived from the entry's 12-byte size field in the tar header with no upper bound on that value.\n\nA crafted header declaring a multi-gigabyte size causes Perl to allocate a scalar of that size.",
           "Severity": "HIGH",
@@ -9110,7 +9110,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:e92ad5e8ec12f1a77cf9aedbd0b66b95bbab9bf40d50989dfe8c165e7e556e9d",
+          "Fingerprint": "sha256:341be4147f2160f9781cf010ce7063eba41288e879333f96d7501f5c67b116f5",
           "Title": "util-linux: util-linux: failed external mount helper still runs privileged X-mount post-hooks",
           "Description": "util-linux versions through 2.41.5 and 2.42.2 fail to check mount helper exit status before running post-mount hooks, allowing unprivileged users to execute privileged operations on pre-existing filesystems. Attackers can exploit X-mount.idmap or X-mount.owner hooks to clone filesystems with inherited suid bits or modify target inode permissions after a helper fails, achieving privilege escalation.",
           "Severity": "HIGH",
@@ -9163,7 +9163,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:45bc6316f9b490cc0341a4c3d5bc6592d16f20ae8321f8b9cb78ead6b94eb240",
+          "Fingerprint": "sha256:73cfb60825f04ee17c7300ffdafdcbdadf9095cb45e7ed1adb80b2c1474121d6",
           "Title": "util-linux: util-linux: nsenter --join-cgroup leaks root cgroup migration authority",
           "Description": "The nsenter --join-cgroup option opens the target cgroup.procs file as root and leaves that file descriptor open across later namespace and credential changes and across execve(). Because the kernel checks later cgroup migrations using the credentials from the original open, a program run in an attacker-controlled target can inherit root's ability to move host processes between cgroups. After a privileged operator uses --join-cgroup against that target, an unprivileged user can migrate and terminate unrelated root processes.",
           "Severity": "HIGH",
@@ -9211,7 +9211,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:7fea9c2537a7149c5dae68ed00248b07ddeefd061d30ccf8c62796823ad0c4ae",
+          "Fingerprint": "sha256:88e3a42c815028b470a4068c615dd2ba9fe50ff8bec6db589e9cd533264d9cc9",
           "Title": "util-linux: util-linux: X-mount.subdir detached-tree resolution can escape via intermediate symlinks",
           "Description": "The X-mount.subdir option uses a detached-tree fast path on Linux 6.15 and later and passes the configured subdirectory to open_tree() with AT_SYMLINK_NOFOLLOW. That flag does not stop intermediate symlink traversal or keep resolution inside the newly mounted filesystem. A local unprivileged user with an fstab-authorized X-mount.subdir entry can attach a host path at the intended mountpoint.",
           "Severity": "HIGH",
@@ -9257,7 +9257,7 @@
             "Name": "Debian Security Tracker",
             "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
           },
-          "Fingerprint": "sha256:125262af4da64e71b1041f7aa4f3b28cb9834658b0f56b626460a52444289341",
+          "Fingerprint": "sha256:cfb1d3605b75aa61b4f8b3c379c71d42763c0058715755212facac6cb039f89c",
           "Title": "util-linux: util-linux: restricted bind mounts do not pin the source, allowing X-mount.owner/group/mode redirection",
           "Description": "A flaw was found in util-linux. Restricted bind mounts take the source path from fstab but do not pin that source before the privileged mount. A local unprivileged user who can replace the authorized source or a writable ancestor can redirect SUID mount(8) to bind another host directory. If the fstab entry also sets X-mount.owner, X-mount.group, or X-mount.mode, root then changes ownership or mode on that redirected inode.",
           "Severity": "HIGH",
@@ -9780,7 +9780,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/accepts/package.json",
           "AnalyzedBy": "node-pkg"
@@ -9933,7 +9933,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/array-flatten/package.json",
           "AnalyzedBy": "node-pkg"
@@ -10001,7 +10001,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/body-parser/package.json",
           "AnalyzedBy": "node-pkg"
@@ -10035,7 +10035,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/bytes/package.json",
           "AnalyzedBy": "node-pkg"
@@ -10069,7 +10069,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/call-bind-apply-helpers/package.json",
           "AnalyzedBy": "node-pkg"
@@ -10086,7 +10086,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/call-bound/package.json",
           "AnalyzedBy": "node-pkg"
@@ -10256,7 +10256,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/content-disposition/package.json",
           "AnalyzedBy": "node-pkg"
@@ -10273,7 +10273,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/content-type/package.json",
           "AnalyzedBy": "node-pkg"
@@ -10290,7 +10290,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/cookie/package.json",
           "AnalyzedBy": "node-pkg"
@@ -10307,7 +10307,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/cookie-signature/package.json",
           "AnalyzedBy": "node-pkg"
@@ -10375,7 +10375,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/debug/package.json",
           "AnalyzedBy": "node-pkg"
@@ -10409,7 +10409,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/depd/package.json",
           "AnalyzedBy": "node-pkg"
@@ -10426,7 +10426,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/destroy/package.json",
           "AnalyzedBy": "node-pkg"
@@ -10460,7 +10460,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/dunder-proto/package.json",
           "AnalyzedBy": "node-pkg"
@@ -10494,7 +10494,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/ee-first/package.json",
           "AnalyzedBy": "node-pkg"
@@ -10562,7 +10562,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/encodeurl/package.json",
           "AnalyzedBy": "node-pkg"
@@ -10630,7 +10630,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/es-define-property/package.json",
           "AnalyzedBy": "node-pkg"
@@ -10647,7 +10647,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/es-errors/package.json",
           "AnalyzedBy": "node-pkg"
@@ -10664,7 +10664,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/es-object-atoms/package.json",
           "AnalyzedBy": "node-pkg"
@@ -10681,7 +10681,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/escape-html/package.json",
           "AnalyzedBy": "node-pkg"
@@ -10698,7 +10698,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/etag/package.json",
           "AnalyzedBy": "node-pkg"
@@ -10732,7 +10732,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/express/package.json",
           "AnalyzedBy": "node-pkg"
@@ -10783,7 +10783,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/finalhandler/package.json",
           "AnalyzedBy": "node-pkg"
@@ -10817,7 +10817,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/forwarded/package.json",
           "AnalyzedBy": "node-pkg"
@@ -10834,7 +10834,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/fresh/package.json",
           "AnalyzedBy": "node-pkg"
@@ -10868,7 +10868,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/function-bind/package.json",
           "AnalyzedBy": "node-pkg"
@@ -10885,7 +10885,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/get-intrinsic/package.json",
           "AnalyzedBy": "node-pkg"
@@ -10902,7 +10902,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/get-proto/package.json",
           "AnalyzedBy": "node-pkg"
@@ -10936,7 +10936,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/gopd/package.json",
           "AnalyzedBy": "node-pkg"
@@ -10970,7 +10970,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/has-symbols/package.json",
           "AnalyzedBy": "node-pkg"
@@ -10987,7 +10987,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/hasown/package.json",
           "AnalyzedBy": "node-pkg"
@@ -11038,7 +11038,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/http-errors/package.json",
           "AnalyzedBy": "node-pkg"
@@ -11089,7 +11089,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/iconv-lite/package.json",
           "AnalyzedBy": "node-pkg"
@@ -11157,7 +11157,7 @@
             "ISC"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/inherits/package.json",
           "AnalyzedBy": "node-pkg"
@@ -11242,7 +11242,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/ipaddr.js/package.json",
           "AnalyzedBy": "node-pkg"
@@ -11650,7 +11650,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/math-intrinsics/package.json",
           "AnalyzedBy": "node-pkg"
@@ -11667,7 +11667,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/media-typer/package.json",
           "AnalyzedBy": "node-pkg"
@@ -11684,7 +11684,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/merge-descriptors/package.json",
           "AnalyzedBy": "node-pkg"
@@ -11701,7 +11701,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/methods/package.json",
           "AnalyzedBy": "node-pkg"
@@ -11718,7 +11718,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/mime/package.json",
           "AnalyzedBy": "node-pkg"
@@ -11735,7 +11735,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/mime-db/package.json",
           "AnalyzedBy": "node-pkg"
@@ -11752,7 +11752,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/mime-types/package.json",
           "AnalyzedBy": "node-pkg"
@@ -11956,7 +11956,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/ms/package.json",
           "AnalyzedBy": "node-pkg"
@@ -11973,7 +11973,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/send/node_modules/ms/package.json",
           "AnalyzedBy": "node-pkg"
@@ -12024,7 +12024,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/negotiator/package.json",
           "AnalyzedBy": "node-pkg"
@@ -12296,7 +12296,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/object-inspect/package.json",
           "AnalyzedBy": "node-pkg"
@@ -12313,7 +12313,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/on-finished/package.json",
           "AnalyzedBy": "node-pkg"
@@ -12415,7 +12415,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/parseurl/package.json",
           "AnalyzedBy": "node-pkg"
@@ -12466,7 +12466,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/path-to-regexp/package.json",
           "AnalyzedBy": "node-pkg"
@@ -12619,7 +12619,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/proxy-addr/package.json",
           "AnalyzedBy": "node-pkg"
@@ -12650,7 +12650,7 @@
             "BSD-3-Clause"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/qs/package.json",
           "AnalyzedBy": "node-pkg"
@@ -12667,7 +12667,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/range-parser/package.json",
           "AnalyzedBy": "node-pkg"
@@ -12684,7 +12684,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/raw-body/package.json",
           "AnalyzedBy": "node-pkg"
@@ -12769,7 +12769,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/safe-buffer/package.json",
           "AnalyzedBy": "node-pkg"
@@ -12786,7 +12786,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/safer-buffer/package.json",
           "AnalyzedBy": "node-pkg"
@@ -12837,7 +12837,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/send/package.json",
           "AnalyzedBy": "node-pkg"
@@ -12854,7 +12854,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/serve-static/package.json",
           "AnalyzedBy": "node-pkg"
@@ -12871,7 +12871,7 @@
             "ISC"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/setprototypeof/package.json",
           "AnalyzedBy": "node-pkg"
@@ -12922,7 +12922,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/side-channel/package.json",
           "AnalyzedBy": "node-pkg"
@@ -12939,7 +12939,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/side-channel-list/package.json",
           "AnalyzedBy": "node-pkg"
@@ -12956,7 +12956,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/side-channel-map/package.json",
           "AnalyzedBy": "node-pkg"
@@ -12973,7 +12973,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/side-channel-weakmap/package.json",
           "AnalyzedBy": "node-pkg"
@@ -13194,7 +13194,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/statuses/package.json",
           "AnalyzedBy": "node-pkg"
@@ -13432,7 +13432,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/toidentifier/package.json",
           "AnalyzedBy": "node-pkg"
@@ -13463,7 +13463,7 @@
           },
           "Version": "1.0.0",
           "Layer": {
-            "DiffID": "sha256:e36385e5a6f52c671bffd5c3edaa1ea3d4b0f1aaa441ff58ab91b859e257658e"
+            "DiffID": "sha256:4813d21c00d72e19f282eaf68aa8e3e43b9050d7e734df707339a387dabd8563"
           },
           "FilePath": "app/package.json",
           "AnalyzedBy": "node-pkg"
@@ -13497,7 +13497,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/type-is/package.json",
           "AnalyzedBy": "node-pkg"
@@ -13548,7 +13548,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/unpipe/package.json",
           "AnalyzedBy": "node-pkg"
@@ -13582,7 +13582,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/utils-merge/package.json",
           "AnalyzedBy": "node-pkg"
@@ -13633,7 +13633,7 @@
             "MIT"
           ],
           "Layer": {
-            "DiffID": "sha256:794272d78a2549cd2315486d2b0a7494d97cd25674b41a34ee221e2d687d0af6"
+            "DiffID": "sha256:4f6dbdd0d83c7c2c9fabea995e2016d34f8b925c1be20a3afbfe1dac5e5ee025"
           },
           "FilePath": "app/node_modules/vary/package.json",
           "AnalyzedBy": "node-pkg"
@@ -13852,7 +13852,7 @@
             "Name": "GitHub Security Advisory npm",
             "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
           },
-          "Fingerprint": "sha256:44cf9735e52120b04db62b9ba977ec31b51e557a011847a5b9bc270132520b93",
+          "Fingerprint": "sha256:97363d6206bac409680afd5f5e25085654b8c0522ffa65a1a8d3d7c1ca903893",
           "Title": "brace-expansion: brace-expansion: Denial of Service via stack exhaustion from crafted brace patterns",
           "Description": "The brace-expansion library generates arbitrary strings containing a common prefix and suffix. Prior to 1.1.19, 2.1.5, 3.0.7, and 5.0.10, crafted brace patterns can exhaust the native stack in parseCommaParts because parseCommaParts recursively processes the remainder once per brace group and uses push.apply to pass every element of a very large comma-part array as a function argument. Patterns containing many comma-separated brace groups trigger the recursive path, while the large array triggers the argument-array path without deep recursion. These paths cause recursive and argument-array native stack exhaustion before max or maxLength can limit output, potentially terminating the Node.js process in a process-terminating denial of service. This issue is fixed in versions 1.1.19, 2.1.5, 3.0.7, and 5.0.10.",
           "Severity": "HIGH",
@@ -13915,7 +13915,7 @@
             "Name": "GitHub Security Advisory npm",
             "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
           },
-          "Fingerprint": "sha256:d90c7334daabab6dda8930b8cc13cf392c6ef48216de2cfd3dd4a83fd073116f",
+          "Fingerprint": "sha256:6bf7e2549dffd99e13eb572e8e5e76ee45b84afb26b523859b8e61a1ea2ea036",
           "Title": "brace-expansion: brace-expansion: Denial of Service via uncontrolled recursion in nested brace patterns",
           "Description": "The brace-expansion library generates arbitrary strings containing a common prefix and suffix. Prior to 1.1.20, 2.1.6, 3.0.8, and 5.0.11, deeply nested brace groups cause expand_() to recurse once per nesting level at comma-member and single-set expansion sites, exhausting the native stack before output limits can apply and potentially terminating the Node.js process. expand_ performs uncontrolled recursion for nested brace alternatives and single-part sets. deeply nested brace groups supplied as an untrusted pattern. expand_ is affected. expand is affected. Comma members is affected. Single set is affected. native stack exhaustion during nested sub-expansion. process-terminating denial of service. This issue is fixed in versions 1.1.20, 2.1.6, 3.0.8, and 5.0.11.",
           "Severity": "HIGH",
@@ -13976,7 +13976,7 @@
             "Name": "GitHub Security Advisory npm",
             "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
           },
-          "Fingerprint": "sha256:684b4170031c95a2809501d0e45f81552f7882e1f03a23fe3e06b2abe378638e",
+          "Fingerprint": "sha256:04c60cdb34f9ddb561a9a04cc990972b5ca534955c9f35aa968163e254bef487",
           "Title": "brace-expansion: Brace-expansion: Denial of Service due to exponential-time complexity",
           "Description": "brace-expansion through 5.0.6 is vulnerable to denial of service. The expand() function exhibits exponential-time complexity in the number of consecutive non-expanding '{}' brace groups. An attacker who passes a crafted string to expand(), directly or transitively, can cause significant CPU consumption and event-loop blocking. The max option does not mitigate this, as it bounds the output size rather than the recursion work.",
           "Severity": "HIGH",
@@ -14065,7 +14065,7 @@
             "Name": "GitHub Security Advisory npm",
             "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
           },
-          "Fingerprint": "sha256:a6ea2828fa5ce858824e82515acbf1be9971f48f019d6bfafc19def05c100e0b",
+          "Fingerprint": "sha256:60f6a6fca8845683763872f14ea40be3f19dee44729359b591aef38ded95a8ec",
           "Title": "brace-expansion: Brace-expansion: Denial of Service via memory exhaustion in expand() function",
           "Description": "brace-expansion through 5.0.7 is vulnerable to denial of service via memory exhaustion. The expand() function limits the number of results with a max option (default 100,000) but does not bound the length of each result string. By chaining multiple brace groups, an attacker keeps the result count under the limit while making each result progressively longer, so total memory scales with both count and string length until the process hits a fatal, uncatchable out-of-memory error. About 7.5 KB of input ('{a,b}'.repeat(1500)) crashes a default Node.js process. Any application that passes attacker-influenced strings to brace-expansion.expand() - directly or transitively via minimatch / glob brace patterns - can be crashed by a small request. Fixed in 5.0.8 by adding a maxLength option (default 4,000,000) that bounds accumulated output and intermediate arrays.",
           "Severity": "HIGH",
@@ -14159,7 +14159,7 @@
             "Name": "GitHub Security Advisory npm",
             "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
           },
-          "Fingerprint": "sha256:0affd7eea55324e64034b1c92044cdcfa33c9d3a41bb9b2e45b7e1a36cf783bc",
+          "Fingerprint": "sha256:7a8962c71907d8a641ebc4a1bfec219b07d1efcdc892ecfa72e1c1d840e7a673",
           "Title": "brace-expansion: DoS via unbounded intermediate arrays, bypassing the CVE-2026-14257 mitigation",
           "Description": "The brace-expansion library generates arbitrary strings containing a common prefix and suffix. Prior to 1.1.18, 2.1.4, 3.0.6, and 5.0.9, expand() does not apply maxLength while constructing comma-alternative intermediate arrays or padded sequences, allowing attacker-controlled input to exhaust memory or block the event loop. The fix for CVE-2026-14257 is bypassed by the vulnerability. This issue is fixed in versions 1.1.18, 2.1.4, 3.0.6, and 5.0.9.",
           "Severity": "HIGH",
@@ -14247,7 +14247,7 @@
             "Name": "GitHub Security Advisory npm",
             "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
           },
-          "Fingerprint": "sha256:1a3258e1c302ed41ae055bd003885cea98710a0f2b6bd95800ed54fa378468fd",
+          "Fingerprint": "sha256:c972ca3816266a9be1bb4f82e4e2c87d3509b1bc8094f4e82286f51754e2ace3",
           "Title": "http-cache-semantics: http-cache-semantics: Information Disclosure via max-stale directive",
           "Description": "http-cache-semantics through 4.2.0 fails to properly validate security-zeroed cache entries when processing client max-stale directives, allowing unauthenticated attackers to retrieve cached responses belonging to other users. Attackers can request the same URL with a large max-stale value to obtain another user's Set-Cookie session credentials from shared-cache entries that were deliberately zeroed for security reasons.",
           "Severity": "HIGH",
@@ -14309,7 +14309,7 @@
             "Name": "GitHub Security Advisory npm",
             "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
           },
-          "Fingerprint": "sha256:50b1cfdf0bcccc00910de928f9a746042438bae9b740b501e1e0797ae8a0fdbb",
+          "Fingerprint": "sha256:574e88408e9a08b226e72e873350591b91daedb94168bcbd2e44b93b16d825dc",
           "Title": "ip-address: ip-address: Inconsistent IP address parsing leads to Server-Side Request Forgery (SSRF) and trust-boundary bypass",
           "Description": "ip-address is a library for parsing and manipulating IPv4 and IPv6 addresses in JavaScript. Prior to 10.3.1, Address4 accepts an octet written with a leading zero and decodes it as decimal, while the WHATWG URL host parser, inet_aton, and getaddrinfo all decode a leading zero as octal. The library and the network stack therefore disagree about which host a string names. new Address4('012.0.0.1') reports correctForm() of 12.0.0.1 and isPrivate() of false, but fetch('http://012.0.0.1/') connects to 10.0.0.1. An application that builds a network trust-boundary decision on these checks, for example a filter intended to block Server-Side Request Forgery, or SSRF, will classify an internal target as external and allow the request. The defect is in the parse gate rather than in any one classifier, so every consumer of Address4 inherits it: isPrivate(), isLoopback(), isLinkLocal(), isCGNAT(), isInSubnet(), isHostInSubnet(), and correctForm() are all computed from the mis-decoded octets. This issue is fixed in version 10.3.1.",
           "Severity": "HIGH",
@@ -14396,7 +14396,7 @@
             "Name": "GitHub Security Advisory npm",
             "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
           },
-          "Fingerprint": "sha256:cc6c6538077212c0a6b9d926ab734a7466d52a2bd5e1924136c5765ed25b3bb5",
+          "Fingerprint": "sha256:8d21e6d6933b580690a197b7eb3abde25b1b5d170dd975f6f4a5d1463afb7e50",
           "Title": "pacote: Pacote: Denial of Service via crafted spec.rawSpec value in addGitSha function",
           "Description": "Versions of the package pacote from 11.2.7 and before 21.5.1 are vulnerable to Denial of Service (DoS) via the addGitSha function. An attacker can exploit this vulnerability by supplying a specially crafted spec.rawSpec value that triggers the function’s regex replacement and string-manipulation logic,  causing excessive CPU consumption and potentially stalling or crashing the process.",
           "Severity": "HIGH",
@@ -14478,7 +14478,7 @@
             "Name": "GitHub Security Advisory npm",
             "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
           },
-          "Fingerprint": "sha256:122f12b132d521c6b6637ca3e85832dabb6f38ea0571bed552f044a6c0458e61",
+          "Fingerprint": "sha256:5bd8bea6b9baad4c879835c48ecfff7f362d00c2056d2d6259038736716df14b",
           "Title": "pacote: Pacote: Denial of Service via crafted spec.rawSpec value in addGitSha function",
           "Description": "Versions of the package pacote from 11.2.7 and before 21.5.1 are vulnerable to Denial of Service (DoS) via the addGitSha function. An attacker can exploit this vulnerability by supplying a specially crafted spec.rawSpec value that triggers the function’s regex replacement and string-manipulation logic,  causing excessive CPU consumption and potentially stalling or crashing the process.",
           "Severity": "HIGH",
@@ -14560,7 +14560,7 @@
             "Name": "GitHub Security Advisory npm",
             "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
           },
-          "Fingerprint": "sha256:a80a3af53f1c6fa69db738f9ba3ec905557caaea6c90a08e2dd4027fef5c86b4",
+          "Fingerprint": "sha256:d46689a9492576629e2c460e7f3654c3fc97b487c3bea8842310e03d2408df2f",
           "Title": "picomatch: Picomatch: Regular Expression Denial of Service via crafted extglob patterns",
           "Description": "Picomatch is a glob matcher written JavaScript. Versions prior to 4.0.4, 3.0.2, and 2.3.2 are vulnerable to Regular Expression Denial of Service (ReDoS) when processing crafted extglob patterns. Certain patterns using extglob quantifiers such as `+()` and `*()`, especially when combined with overlapping alternatives or nested extglobs, are compiled into regular expressions that can exhibit catastrophic backtracking on non-matching input. Applications are impacted when they allow untrusted users to supply glob patterns that are passed to `picomatch` for compilation or matching. In those cases, an attacker can cause excessive CPU consumption and block the Node.js event loop, resulting in a denial of service. Applications that only use trusted, developer-controlled glob patterns are much less likely to be exposed in a security-relevant way. This issue is fixed in picomatch 4.0.4, 3.0.2 and 2.3.2. Users should upgrade to one of these versions or later, depending on their supported release line. If upgrading is not immediately possible, avoid passing untrusted glob patterns to `picomatch`. Possible mitigations include disabling extglob support for untrusted patterns by using `noextglob: true`, rejecting or sanitizing patterns containing nested extglobs or extglob quantifiers such as `+()` and `*()`, enforcing strict allowlists for accepted pattern syntax, running matching in an isolated worker or separate process with time and resource limits, and applying application-level request throttling and input validation for any endpoint that accepts glob patterns.",
           "Severity": "HIGH",
@@ -14618,7 +14618,7 @@
             "Name": "GitHub Security Advisory npm",
             "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
           },
-          "Fingerprint": "sha256:285fe5371e60988a1f4234059328756cfa3d814fe8a30ebfc6995478c455aa53",
+          "Fingerprint": "sha256:7257f2ecefe80f9cc5e2b0a7fc60ba939c839595ce9504c7f1234e4edae00573",
           "Title": "sigstore: Sigstore: Unauthorized certificates accepted due to ignored `certificateOIDs` verification option",
           "Description": "sigstore-js provides JavaScript libraries for interacting with Sigstore services. Prior to 4.1.1, the documented certificateOIDs option in sigstore.verify() is accepted by the public API but discarded before verification, so required certificate extension OIDs are never checked and applications relying on certificateOIDs to restrict which certificates may sign artifacts can accept unauthorized certificates. This issue is fixed in version 4.1.1.",
           "Severity": "HIGH",
